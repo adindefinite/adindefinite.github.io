@@ -1,23 +1,98 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="icon" href="images/icon.ico" type="img/x-ico"/>
-<title>adindefinite</title>
-<meta name="author" content="阿梦">
-<link href="css/home.css" rel="stylesheet" type="text/css" />
-<link href="css/animate.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="images/icon.ico" type="img/x-ico"/>
+	<title>adindefinite</title>
+	<meta name="author" content="阿梦">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/home.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#nav{
+			position:fixed; 
+			top:0; 
+			width:100%; 
+			height: 30px; 
+			background: #33000000;
+		}
+		#index{
+			height: 1000px;
+		}
+		#w{
+			background: #6c757d;
+		}
+		body {
+			background-image:url(images/back.jpg); 
+			background-size: 100% 100%; 
+			background-repeat: no-repeat; 
+			background-attachment:fixed
+		}
+	</style>
 </head>
 
 <body>
+	<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+		<img  id="nav_dream" src="images/dream.png"/>
+		<div class="container">
+    	<a href="#" class="navbar-brand"><font face="微软雅黑" color="#000000">章婷薇的简历</font></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="#">基本资料</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">获奖情况</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">项目经验</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">更多 <span class="caret"></span></a>
+			  <div class="dropdown-menu" aria-labelledby="download">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+				<a class="dropdown-item" href="#">Something else here</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Separated link</a>
+				<a class="dropdown-item" href="#">One more separated link</a>
+			  </div>
+			</li>
+		  </ul>
+
+		  <ul class="nav navbar-nav ml-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Default</a>
+			</li>
+		  </ul>
+
+		</div>
+	  </div>
+	</div>
+<!--	<div id="nav">11111</div>-->
 	<div id="index">
+<!--
 		<div id="home1" class="animated bounce infinite">222</div>
 		<div id="home2"></div>
 		<div id="home3"></div>
 		<div id="home4"></div>
 		<div id="home5"></div>
 		<div id="home6"></div>
-		<a href="https://www.baidu.com" target="_blank">123</a>
+		<a href="https://www.baidu.com" target="_blank"><p id="w">1111</p>123</a>
+-->
 	</div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="src/jquery.bootstrap-autohidingnavbar.js"></script>
+	<script>
+		$("div.navbar.fixed-top").autoHidingNavbar();
+	</script>
 </body>
+	
 </html>

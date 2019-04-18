@@ -69,8 +69,24 @@
 }
 #edu{
 	height: 900px;
+	width: 100%;
 	text-align: center;
 	background: #FAFAFA;
+}
+.edu_data{
+	width: 70%;
+	margin:0px auto;
+	margin-bottom: 20px;
+	border-spacing: 10px;
+	padding-top: 10px;
+}
+#hnu_logo{
+	height: 200px;
+	width: 200px;
+}
+#qst_logo{
+	height: 60px;
+	width: 250px;
 }
 #skill{
 	height: 900px;

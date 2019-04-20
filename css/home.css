@@ -38,11 +38,13 @@
 }
 #basic{
 	height: 900px;
+	margin-left: 0px auto;
+	margin-right: 0px auto;
 	text-align: center;
 	background: #FCFCFC;
 }
 .personal_img{
-	margin-top: 200px;
+	margin-top: 80px;
 }
 .name{
 	margin-top: 10px;
@@ -66,6 +68,10 @@
 .td_third{
 	padding-top: 5px;
 }
+#basic p{
+	width: 600px;
+	margin:0px auto;
+}
 #edu{
 	height: 900px;
 	width: 100%;
@@ -76,8 +82,12 @@
 	width: 70%;
 	margin:0px auto;
 	margin-bottom: 20px;
-	border-spacing: 10px;
-	padding-top: 10px;
+	border-spacing: 20px;
+	padding-top: 20px;
+}
+td.edu_data{
+	text-align: center;
+	width: 300px;
 }
 #hnu_logo{
 	height: 200px;
@@ -110,6 +120,12 @@
 	margin-bottom: 20px;
 	border-spacing: 10px;
 }
+#d1_div{
+	width: 100%;
+	height: 40%;
+	margin: 0px auto;
+	text-align: center;
+}
 td.skill_show{
 	text-align: center;
 }
@@ -120,13 +136,21 @@ td.skill_show{
 	background-color: #F7F7F7;
 	font-family: Raleway;
 }
-#d2_bg h1{
+#d1_bg h1,#d2_bg h1,#d3_bg h1,#d4_bg h1,#d5_bg h1{
 	/* for IE */
   	filter:alpha(opacity=20);
   	/* CSS3 standard */
   	opacity:0.2;
 	color: #9370DB;
 	font-family: Raleway;
+}
+.d_t{
+	width: 90%;
+	text-align: center;
+	position: relative;
+}
+.d_te,.d_bg{
+	position: absolute;
 }
 #d1 p,#d2 p,#d3 p,#d4 p,#d5 p{
 	font-size: 18px;

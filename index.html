@@ -69,25 +69,25 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 			  <ul class="navbar-nav">
 				<li class="nav-item">
-				  <a class="nav-link" href="#basic">基本资料</a>
+				  <a class="nav-link" href="#basic" title="基本资料">基本资料</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="#edu">教育背景</a>
+				  <a class="nav-link" href="#edu" title="教育背景">教育背景</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="#skill">专业技能</a>
+				  <a class="nav-link" href="#skill" title="专业技能">专业技能</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="#honor">获奖情况</a>
+				  <a class="nav-link" href="#honor" title="获奖情况">获奖情况</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="#project">项目经验</a>
+				  <a class="nav-link" href="#project" title="项目经验">项目经验</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="#hobby">个人经历</a>
+				  <a class="nav-link" href="#hobby" title="个人经历">个人经历</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link" href="#contact">联系方式</a>
+				  <a class="nav-link" href="#contact" title="联系方式">联系方式</a>
 				</li>
 <!--
 			<li class="nav-item dropdown">
@@ -120,6 +120,10 @@
 		<div class="index_main">
 			
 			<div id="basic">
+				<div style="height: 60px"></div>
+				<div class="table_header">
+					<h3>基本资料</h3>
+				</div>
 				<img class="personal_img" src="images/dream.png"/>
 				<h1 class="name"><font face="微软雅黑">章婷薇</font></h1>
 				<table class="basic_data">
@@ -146,36 +150,42 @@
 					</tr>
 					<tr></tr>
 				</table>
-				<div class="profile">
-					<p>目前就读于淮阴师范学院，是计算机科学与技术学院物联网工程专业的一名学生</p>
-				</div>
+<!--				<div class="profile">-->
+					<p>目前就读于淮阴师范学院，是计算机科学与技术学院物联网工程专业的一名学生017年8月15日，20岁的北京某外国语高校的大学生范某某，在吉林老家溺水而亡。家人发现他留下的遗书后，他的手机还不间断收到威胁恐吓其还款的信息。通过其家人介绍得知，他此前曾在多个网络借贷平台借“高利贷”，已累计达13万余元，其中一笔借款数额为1100元，一周后需还1600元，周利息高达500元。2</p>
+<!--				</div>-->
 			</div>
 
 			<div id="edu">
 				<div style="height: 60px"></div>
+				<div class="table_header">
+					<h3>教育背景</h3>
+				</div>
 				<table class="edu_data">
-					<tr height="200px"></tr>
+					<tr height="80px"></tr>
 					<tr>
 						<td><img id="hnu_logo" src="images/hnu_logo.png"/></td>
 						<td><img id="qst_logo" src="images/qst_logo.png"/></td>
 					</tr>
 					<tr>
 						<td><h3><font face="微软雅黑">淮阴师范学院</font></h3></td>
-						<td><h3><font face="微软雅黑">青软实训长三角基地</font></h3></td>
+						<td><h3><font face="微软雅黑">青软实训<br />长三角基地</font></h3></td>
 					</tr>
 					<tr>
 						<td><h5>2016.09-2020.06</h5></td>
 						<td><h5>2019.03-2019.09</h5></td>
 					</tr>
 					<tr>
-						<td><p>在校期间主要学习。。。</p></td>
-						<td><p>在实训企业主要学习。。。</p></td>
+						<td><p>在校期间主要学习:<br />C++程序设计、Java程序设计、电子技术基础、数据结构、<br />计算机网络、操作系统、计算机组成原理、数据库原理、<br />单片机原理及应用、无线传感网络技术、传感器原理与应用、标识与感知技术</p></td>
+						<td><p>在实训企业主要学习:<br />基于Java的Android开发、HTML5与CSS、软件测试技术</p></td>
 					</tr>
 				</table>
 			</div>
 
 			<div id="skill">
-				<div style="height: 80px"></div>
+				<div style="height: 60px"></div>
+				<div class="table_header">
+					<h3>专业技能</h3>
+				</div>
 				<div id="workarea">
 				  <div class="position">
 						<!--start button, nothing above this is necessary -->
@@ -234,9 +244,11 @@
 								<td>学习程度：熟练</td>
 							</tr>
 						</table>
-						<p>能熟练运用C++编写项目程序</p>
-						<div id="d2_bg">
-							<h1><span style="font-weight:bold;">JAVA</span></h1>
+						<div class="d_t">
+							<div class="d_te"><p>能熟练运用C++编写项目程序</p></div>
+							<div id="d2_bg" class="d_bg">
+								<h1><span style="font-weight:bold;">C++</span></h1>
+							</div>
 						</div>
 					</div>
     				<div id="d3" name="dv">
@@ -246,7 +258,12 @@
 								<td>学习程度：入门</td>
 							</tr>
 						</table>
-						<p>能运用HTML相关知识编写网页</p>
+						<div class="d_t">
+							<div class="d_te"><p>能运用HTML相关知识编写网页</p></div>
+							<div id="d3_bg" class="d_bg">
+								<h1><span style="font-weight:bold;">HTML</span></h1>
+							</div>
+						</div>
 					</div>
 					<div id="d4" name="dv">
 						<table class="skill_show">
@@ -255,7 +272,12 @@
 								<td>学习程度：入门</td>
 							</tr>
 						</table>
-						<p>了解Linux基本命令</p>
+						<div class="d_t">
+							<div class="d_te"><p>了解Linux基本命令</p></div>
+							<div id="d4_bg" class="d_bg">
+								<h1><span style="font-weight:bold;">Linux</span></h1>
+							</div>
+						</div>
 					</div>
     				<div id="d5" name="dv">
 						<table class="skill_show">
@@ -264,7 +286,12 @@
 								<td>学习程度：入门</td>
 							</tr>
 						</table>
-						<p>可以结合Java实现项目中的数据库功能</p>
+						<div class="d_t">
+							<div class="d_te"><p>可以结合Java实现项目中的数据库功能</p></div>
+							<div id="d5_bg" class="d_bg">
+								<h1><span style="font-weight:bold;">MySQL</span></h1>
+							</div>
+						</div>
 					</div>
 <!--					最顶层初始化显示-->
 					<div id="d1" name="dv">
@@ -274,7 +301,12 @@
 								<td>学习程度：熟练</td>
 							</tr>
 						</table>
-						<p>能熟练运用java编写移动应用</p>
+						<div id="d1_div" class="d_t">
+							<div class="d_te"><p>能熟练运用java编写移动应用</p></div>
+							<div id="d1_bg" class="d_bg">
+								<h1><span style="font-weight:bold;">JAVA</span></h1>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -282,7 +314,7 @@
 				<div style="height: 60px"></div>
 				<div id="prize">
 					<div class="table_header">
-						<h3>获奖情况</h3>
+						<h3 style="text-align: center;">获奖情况</h3>
 					</div>
 					<div style="height: 30px"></div>
 					<div class="table_home">
@@ -327,7 +359,7 @@
 			</div>
 			
 			<div id="project" class="custom-bg">
-				<div style="height: 60px"></div>
+				<div style="height: 80px"></div>
 <!--				<div class="jazz-timeline-wrapper">-->
 				<div class="project_bg">
 					<div class="table_header_pro">
@@ -406,7 +438,7 @@
 				<div style="height: 60px"></div>
 				<div id="life">
 					<div class="table_header">
-						<h3>个人经历</h3>
+						<h3 style="text-align: center;">个人经历</h3>
 					</div>
 					<div style="height: 30px"></div>
 					<div class="table_home">

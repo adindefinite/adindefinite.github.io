@@ -115,19 +115,9 @@ td.edu_data{
 .skill_show{
 	width: 400px;
 	margin:0px auto;
-	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-spacing: 10px;
-}
-#d1_div{
-	width: 100%;
-	height: 40%;
-	margin: 0px auto;
-	text-align: center;
-}
-td.skill_show{
-	text-align: center;
 }
 #d1,#d2,#d3,#d4,#d5{
 	position: absolute;
@@ -145,12 +135,25 @@ td.skill_show{
 	font-family: Raleway;
 }
 .d_t{
-	width: 90%;
+	height: 40%;
 	text-align: center;
 	position: relative;
 }
 .d_te,.d_bg{
+	width: 600px;
+	margin: 0px auto;
 	position: absolute;
+	vertical-align:middle;
+	/*top: 50%;
+    left:50%;
+    margin-top: -50px;     /*这里是小盒子高的一半*/
+    /*margin-left: -50px;    /*这里是小盒子宽的一半*/
+}
+p.d_te,h1.d_bg{
+	
+}
+h1.d_bg{
+	text-align: center;
 }
 #d1 p,#d2 p,#d3 p,#d4 p,#d5 p{
 	font-size: 18px;

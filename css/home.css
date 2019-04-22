@@ -102,9 +102,6 @@ td.edu_data{
 	text-align: center;
 	background: #F7F7F7;
 }
-#workk{
-	margin-top: 100px;
-}
 #showarea{
 	height: 50%;
 	width: 100%;
@@ -122,39 +119,55 @@ td.edu_data{
 #d1,#d2,#d3,#d4,#d5{
 	position: absolute;
 	width: 100%;
-	height: 50%;
+	height: 60%;
+	text-align: center;
 	background-color: #F7F7F7;
 	font-family: Raleway;
 }
-#d1_bg h1,#d2_bg h1,#d3_bg h1,#d4_bg h1,#d5_bg h1{
+.d_bg{
 	/* for IE */
-  	filter:alpha(opacity=20);
+  	filter:alpha(opacity=50);
   	/* CSS3 standard */
-  	opacity:0.2;
+  	opacity:0.5;
 	color: #9370DB;
 	font-family: Raleway;
 }
-.d_t{
-	height: 40%;
-	text-align: center;
-	position: relative;
-}
-.d_te,.d_bg{
+.d_te{
 	width: 600px;
-	margin: 0px auto;
+	margin:0px auto;
+}
+/*
+#d2_bg{
+	background-image:url("../images/C++.PNG");
+}
+#d3_bg{
+	background-image:url("../images/linux.PNG");
+}
+#d4_bg{
+	background-image:url("../images/html.PNG");
+}
+#d5_bg{
+	background-image:url("../images/Mysql.PNG");
+}
+#d1_bg{
+	background-image:url("../images/java.PNG");
+*/
+	
+/*
+	height: 100%;
 	position: absolute;
-	vertical-align:middle;
+*/
+	
+/*
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 0%);
+*/
 	/*top: 50%;
     left:50%;
     margin-top: -50px;     /*这里是小盒子高的一半*/
     /*margin-left: -50px;    /*这里是小盒子宽的一半*/
-}
-p.d_te,h1.d_bg{
-	
-}
-h1.d_bg{
-	text-align: center;
-}
+/*}*/
 #d1 p,#d2 p,#d3 p,#d4 p,#d5 p{
 	font-size: 18px;
 }
